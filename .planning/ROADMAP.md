@@ -20,7 +20,7 @@
   - Detailed scientific dossier & potency metrics per bottle
   - Commit: `feat(showcase): add interactive 3d bottle formulation switcher`
 
-- [ ] **Phase 4: 3D Botanical Journey & Scrollytelling Experience**
+- [x] **Phase 4: 3D Botanical Journey & Scrollytelling Experience**
   - 4-stage interactive journey (01 Wild Harvest, 02 Cold-Press Decantation, 03 Micro-Nutrient Infusion, 04 Follicle Absorption)
   - Synchronized 3D bottle camera trajectory & particle effect transition
   - Commit: `feat(journey): build 3d scrollytelling botanical extraction sequence`
