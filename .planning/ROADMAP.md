@@ -32,7 +32,7 @@
   - Slide-out Cart Drawer & Certificate of Analysis modal
   - Commit: `feat(interactive): implement diagnostic quiz, pipette simulator and audio`
 
-- [ ] **Phase 6: Compliance, Privacy Policy & Brand Transparency**
+- [x] **Phase 6: Compliance, Privacy Policy & Brand Transparency**
   - Full dedicated Privacy Policy & Data Rights page/modal
   - Terms of Service & Ayush/FDA compliance disclaimers
   - Sourcing Traceability Map & Lab Test Verification
