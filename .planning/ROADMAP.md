@@ -25,7 +25,7 @@
   - Synchronized 3D bottle camera trajectory & particle effect transition
   - Commit: `feat(journey): build 3d scrollytelling botanical extraction sequence`
 
-- [ ] **Phase 5: Interactive Luxury Features & Tools**
+- [x] **Phase 5: Interactive Luxury Features & Tools**
   - Interactive Scalp Diagnostic & Custom Dosage Estimator
   - Interactive Dropper Pipette simulation
   - Ambient botanical audio generator (Web Audio API)
