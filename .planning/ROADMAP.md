@@ -8,7 +8,7 @@
   - Implement 60|30|10 color token system & luxury typography
   - Commit: `feat(core): initialize project architecture and design tokens`
 
-- [ ] **Phase 2: Ultra-Realistic 3D Bottle Rendering Engine**
+- [x] **Phase 2: Ultra-Realistic 3D Bottle Rendering Engine**
   - Implement Three.js scene with custom PBR bottle (glass refraction, viscous liquid mesh, inner botanical suspended twigs/seeds, metallic gold/matte dropper cap, high-res embossed foil label)
   - 360-degree smooth orbit controls with inertia, tilt-on-mouse, and auto-rotation
   - Interactive lighting (studio key light, lime rim light, amber liquid transmission)
