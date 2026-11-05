@@ -14,7 +14,7 @@
   - Interactive lighting (studio key light, lime rim light, amber liquid transmission)
   - Commit: `feat(3d): implement realistic interactive 3d herbal oil bottle`
 
-- [ ] **Phase 3: Multi-Bottle Selector & Real-Time 3D Formula Switching**
+- [x] **Phase 3: Multi-Bottle Selector & Real-Time 3D Formula Switching**
   - 4 distinct formulations: Bhringraj Scalp Revival, Rosemary Follicle Stimulator, Hibiscus Silk Nectar, Kalonji Root Density
   - Real-time 3D fluid color shift, viscosity changes, and suspended botanical elements
   - Detailed scientific dossier & potency metrics per bottle
