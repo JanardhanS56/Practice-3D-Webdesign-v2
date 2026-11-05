@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 60% Obsidian Black */
+  --bg-primary: #040605;
+  --bg-secondary: #0A0E0B;
+  --bg-elevated: #111712;
+
+  /* 30% Botanical Secondary */
+  --botanical-dark: #121C15;
+  --botanical-surface: #18251C;
+  --botanical-card: #1E2E23;
+  --botanical-border: rgba(56, 239, 125, 0.15);
+  --text-muted: #8EA798;
+  --botanical-amber: #D9943B;
+
+  /* 10% Neon / Lime Green Accent */
+  --lime-neon: #38EF7D;
+  --lime-electric: #00FF66;
+  --lime-glow: rgba(56, 239, 125, 0.4);
+
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: #F3F4F6;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom noise grain overlay for cinematic luxury apothecary texture */
+.grain-overlay {
+  background-image: radial-gradient(rgba(56, 239, 125, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Glassmorphism surfaces with subtle neon lime refraction border */
+.glass-panel {
+  background: rgba(18, 28, 21, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 239, 125, 0.15);
+}
+
+.glass-panel-glow {
+  background: rgba(18, 28, 21, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(56, 239, 125, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(56, 239, 125, 0.1);
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040605;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18251C;
+  border-radius: 3px;
+  border: 1px solid rgba(56, 239, 125, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38EF7D;
+}
